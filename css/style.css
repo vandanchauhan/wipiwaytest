@@ -1,10 +1,177 @@
 @charset "UTF-8";
-/*
-  Theme Name: eStartup
-  Theme URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
+
+/*--------------------------------------------------------------
+# CaseStudy details
+--------------------------------------------------------------*/
+
+.casedetailheader {
+  background-image: url('../img/Final_Word@3x.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 36%, #000000);
+  background-image: url('../img/Final_Word@3x.jpg'), -webkit-gradient(linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 36%, #000000));
+  background-image: url('../img/Final_Word@3x.jpg'), -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 36%, #000000);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caseclient {
+  font-family: SofiaPro;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -0.32px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0px
+}
+
+.caselocation {
+  font-family: SofiaPro;
+  font-size: 18px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.44px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0px
+}
+
+.casecontent {
+  font-family: FiraSans;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.7;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/*CaseStudy Details*/
+
+.caseStudy1 .detailtitle {
+  font-family: SofiaPro;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.04;
+  letter-spacing: -0.72px;
+  text-align: left;
+  color: #230748;
+}
+
+.caseStudy1 .detailmiddle {
+  font-family: FiraSans;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.32px;
+  text-align: left;
+  color: #100748;
+}
+
+.caseStudy1 .detailbottomr {
+  font-family: FiraSans;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.32px;
+  text-align: left;
+  color: #100748;
+}
+
+.caseStudy1 .detailbottoml {
+  font-family: FiraSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.32px;
+  text-align: left;
+  color: #100748;
+}
+
+.cstitle {
+  font-family: SofiaPro;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.72px;
+  text-align: center;
+  color: #230748;
+  width: 100%
+}
+
+.cstext {
+  font-family: FiraSans;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.9;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #100748;
+  width: 100%
+}
+
+.csnextprev a {
+  font-family: Graphik;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.23;
+  letter-spacing: normal;
+  text-align: right;
+  color: rgba(80, 73, 122, 0.3);
+}
+
+.csnextprev a:hover {
+  text-decoration: none;
+  text-underline-position: none;
+}
+
+.next {
+  float: right;
+}
+
+.prev {
+  float: left;
+  p
+}
+
+.casestudystatus {
+  margin: 10% 0;
+}
+
+.bottomfootertext {
+  opacity: 0.4;
+  text-align: center;
+  font-family: SofiaPro;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 7.73;
+  letter-spacing: 0.44px;
+  text-align: left;
+  color: #230748;
+  margin: auto;
+}
+
+/*--------------------------------------------------------------
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -261,7 +428,7 @@ span {
 }
 
 #intro .intro-img {
-  width: 73%;
+  width: 70%;
   float: right;
   margin-right: -15px;
     background-repeat: no-repeat;
@@ -271,7 +438,7 @@ span {
 #intro .intro-info {
   width: 27%;
   float: left;
-  padding: 17% 0% 0% 6%;
+  padding: 10% 0% 0% 6%;
 }
 
 .header-left-subtext {
@@ -638,7 +805,7 @@ Consultation
 }
 
 .nav-menu > li {
-  margin-left: 10px;
+  margin-left: 30px;
   float: left;
 }
 
@@ -888,14 +1055,27 @@ body.mobile-nav-active #mobile-nav-toggle i {
   letter-spacing: .3px;
 }
 
-.caseStudy1 .casestudytext {
+.caseStudy1 .casestudytext{
   margin-top:32%;
+}
+
+.caseStudy1 .casestudytext a { 
+  margin-top:32%;
+  color: white;
+}
+
+.caseStudy1 .casestudytext a:hover {
+  margin-top:32%;
+  color: white;
+  text-decoration: none;
+  text-underline-position: 
 }
 
 .casestudyseeall {
   width: 200px;  
   height: 56px;
   margin: 6% auto;
+  color: white;
   border-radius: 2px;
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
@@ -903,9 +1083,16 @@ body.mobile-nav-active #mobile-nav-toggle i {
   border: solid 2px #593ea7;
 }
 
+.casestudyseeall a:hover {
+  text-underline-position: none;
+  text-decoration: none;
+  color: white;
+}
+
 .casestudyseeall p {
   font-family: OpenSans;
   font-size: 15px;
+  color:white;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -1040,6 +1227,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
       margin: 7% 7%;
 }
 
+#about .about-extra-case{
+      margin: 6% 7%;
+}
+
 #about .about-extra h4 {
   font-weight: 600;
   font-size: 24px;
@@ -1128,133 +1319,30 @@ body.mobile-nav-active #mobile-nav-toggle i {
   background: #ddd;
 }
 
-/* Video Section
+/* Bottom section
 --------------------------------*/
-#video {
-  background: url(../img/video-bg.jpg) center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
-  overflow: hidden;
+.bottomfooter {
+
 }
 
-#video .overlay {
-  background: rgba(0, 0, 0, 0.85);
-  height: 100%;
+.bottom-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 1px;
 }
 
-#video .overlay .play-btn {
-  width: 94px;
-  height: 94px;
-  background: radial-gradient(#71c55d 50%, rgba(113, 197, 93, 0.15) 52%);
-  border-radius: 50%;
-  display: block;
-  margin: 153px auto 0;
-  position: relative;
-  overflow: hidden;
-}
-
-#video .overlay .play-btn::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateX(-40%) translateY(-50%);
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 100;
-  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-#video .overlay .play-btn:before {
-  content: '';
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-animation: pulsate1 2s;
-  animation: pulsate1 2s;
-  -webkit-animation-direction: forwards;
-  animation-direction: forwards;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps;
-  animation-timing-function: steps;
-  opacity: 1;
-  border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  top: -15%;
-  left: -15%;
-  background: rgba(198, 16, 0, 0);
-}
-
-#video .overlay .play-btn:hover::after {
-  border-left: 15px solid #71c55d;
-  -webkit-transform: scale(20);
-  transform: scale(20);
-}
-
-#video .overlay .play-btn:hover::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateX(-40%) translateY(-50%);
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border: none;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 200;
-  -webkit-animation: none;
-  animation: none;
-  border-radius: 0;
-}
-
-@-webkit-keyframes pulsate1 {
-  0% {
-    -webkit-transform: scale(0.6, 0.6);
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-@keyframes pulsate1 {
-  0% {
-    -webkit-transform: scale(0.6, 0.6);
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes pulsate2 {
-  0% {
-    -webkit-transform: scale(0.1, 0.1);
-    transform: scale(0.1, 0.1);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-    opacity: 0;
-  }
+.nav-menu .bottomitem {
+  height: 25px;
+  font-family: FiraSans;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 35px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #918f9c;
+  margin-left: 48px;  
 }
 
 /* Team Section
@@ -1717,7 +1805,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  padding-top: 50px;
+  padding: 50px 50px 0px;
 }
 
 .footer .footer-logo .navbar-brand {
@@ -1772,3 +1860,5 @@ body.mobile-nav-active #mobile-nav-toggle i {
   letter-spacing: 0;
   color: #71c55d;
 }
+
+
