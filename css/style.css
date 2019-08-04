@@ -1,4 +1,144 @@
 @charset "UTF-8";
+/*--------------------------------------------------------------
+# CaseStudy All
+--------------------------------------------------------------*/
+.contact-container {
+  background-color: #230748;
+  height: 100vh;  
+}
+
+#contact-name {
+  height: 50px;
+  border-radius: 4px;
+  background-color: #50497a;
+  border: 0px;
+  color: white;
+}
+
+#close{
+  float: right;
+  right: 3%;
+  top: 4%;
+  position: absolute;
+}
+
+#contact-email {
+  color: white;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #50497a;
+  border: 0px;
+}
+
+#contact-yourself {
+  color: white;
+  height: 150px;
+  border-radius: 4px;
+  background-color: #50497a;
+  border: 0px;
+  width: 100%;  
+}
+
+.contact-details {
+  text-align:left;
+    font-family: FiraSans;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 8% 0%;
+}
+
+.contact-details img {
+  margin: 7px 12px 7px 0px;
+  width: 23px;
+}
+
+.form-group label {
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: left;
+  color: #50497a;
+
+}
+
+.contact-btn {
+  width: 146px;
+  height: 56px;
+  border-radius: 2px;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 4px 8px 0 rgba(89, 62, 167, 0.26);
+  background-color: #593ea7;
+  border: 0px;
+  float: right;
+  margin: 3% 0% 0%;
+}
+
+.contact-btn img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  opacity: 0.5;
+}
+
+.contactfootertext {
+    text-align: center;
+    font-family: SofiaPro;
+    font-size: 11px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.44px;
+    text-align: left;
+    color: white;
+    opacity: 1;
+    margin: 5% auto 0;
+}
+
+/*--------------------------------------------------------------
+# CaseStudy All
+--------------------------------------------------------------*/
+
+#csall {
+  width: 31.3%;
+  float: left;
+  margin: 1% 1%;
+}
+
+#csall p {
+  font-family: FiraSans;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 1.54;
+  width: 85%;
+  color: #ffffff;
+  letter-spacing: .3px;
+  height: 162px;
+}
+
+#csall .casestudytext{
+  margin: 8% 0% 8%;
+}
+
+
+#csall h4 {
+  font-family: SofiaPro;
+  font-size: 15px;
+  line-height: 2.13;
+  letter-spacing: 1.2px;
+  color: #fafafa;
+  margin: 15px 0px;
+}
 
 /*--------------------------------------------------------------
 # CaseStudy details
@@ -335,17 +475,30 @@ span {
 }
 
 /* Back to top button */
+
+.top-btn {
+  font-family: OpenSans;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: center;
+  color: #909090;
+}
+
 .back-to-top {
   position: fixed;
-  display: none;
-  background: #71c55d;
+  display: none;  
   line-height: 1;
-  color: #fff;
+  color: #848484;
   padding: 7px 12px 13px 12px;
   font-size: 16px;
   border-radius: 2px;
-  right: 15px;
-  bottom: 15px;
+  right: 17px;
+  bottom: 25px;
+  text-align: center;
   transition: background 0.5s;
 }
 
@@ -356,14 +509,13 @@ span {
 }
 
 .back-to-top:focus {
-  background: #71c55d;
-  color: #fff;
-  outline: none;
+text-underline-position: none;
+text-decoration: none;
 }
 
 .back-to-top:hover {
-  background: #55b03f;
-  color: #fff;
+text-underline-position: none;
+text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -374,7 +526,7 @@ span {
   left: 0;
   top: 0;
   right: 0;
-  height: 48px;
+  height: auto;
 }
 
 #header #logo {
@@ -438,7 +590,7 @@ span {
 #intro .intro-info {
   width: 27%;
   float: left;
-  padding: 10% 0% 0% 6%;
+  padding: 13% 0% 0% 6%;
 }
 
 .header-left-subtext {
@@ -792,7 +944,7 @@ Consultation
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  line-height: 6.8;
+  line-height: 6.1;
   letter-spacing: normal;
   text-align: left;
   color: #100748;
@@ -1251,19 +1403,40 @@ body.mobile-nav-active #mobile-nav-toggle i {
   transition: all 0.5s ease-in-out 0s;
 }
 
-/*#features .feature-block:hover {
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s ease-in-out 0s;
-}*/
-
 .img-services {
-  max-width: 35%;
+  max-width: 40%;
   height: auto;
   margin: 22px;
+  padding: 19px;
+  border-radius: 4px;
+}
+
+.featureimgbg1 {
+  background-color: #fae2f7;
+  border-opacity: 0.4;
+  border-bottom: 8px solid rgba(255, 255, 255, 0.4);
+}
+
+.featureimgbg2 {
+  background-color:#ddf8f2;
+  border-opacity: 0.4;
+  border-bottom: 8px solid #e9fffa;
+}
+
+.featureimgbg3 {
+  background-color:#ffebd3;
+  border-opacity: 0.4;
+  border-bottom: 8px solid #fff6eb;
+}
+
+.featureimgbg4 {
+  background-color:#d1eeff;
+  border-opacity: 0.4;
+  border-bottom: 8px solid #e6f6ff;
 }
 
 .container-services {
-  margin: 11% auto 5%;
+  margin: 6% auto 5%;
 }
 
 .text-services {
@@ -1342,7 +1515,20 @@ body.mobile-nav-active #mobile-nav-toggle i {
   letter-spacing: normal;
   text-align: left;
   color: #918f9c;
-  margin-left: 48px;  
+  margin-left: 23px;  
+}
+
+.nav-menu .bottomitem a {
+  font-family: FiraSans;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.3;
+  letter-spacing: normal;
+  text-align: left;
+  color: #100748;
+  margin: 0px 16px;
 }
 
 /* Team Section
