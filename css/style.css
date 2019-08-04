@@ -490,14 +490,14 @@ span {
 
 .back-to-top {
   position: fixed;
-  display: none;  
+  display: none;
   line-height: 1;
   color: #848484;
   padding: 7px 12px 13px 12px;
   font-size: 16px;
   border-radius: 2px;
-  right: 17px;
-  bottom: 25px;
+  right: 20px;
+  bottom: 55px;
   text-align: center;
   transition: background 0.5s;
 }
