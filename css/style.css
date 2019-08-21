@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-  font-family: 'Sofia Pro';
-  src: local('../sofia-light.otf');
-}
-
 /*--------------------------------------------------------------
 # CaseStudy All
 --------------------------------------------------------------*/
@@ -102,7 +97,7 @@
 
 .contactfootertext {
     text-align: center;
-    font-family: Sofia Pro;
+    font-family: 'Lato', sans-serif;
     font-size: 11px;
     font-weight: 500;
     font-style: normal;
@@ -142,7 +137,7 @@
 
 
 #csall h4 {
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   line-height: 2.13;
   letter-spacing: 1.2px;
@@ -151,7 +146,7 @@
 }
 
 .csallheader h3 {
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: bolder;
   font-style: normal;
@@ -175,7 +170,7 @@
 }
 
 .caseclient {
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
@@ -188,7 +183,7 @@
 }
 
 .caselocation {
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 900;
   font-style: normal;
@@ -214,7 +209,7 @@
 /*CaseStudy Details*/
 
 .caseStudy1 .detailtitle {
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   font-weight: bolder;
   font-style: normal;
@@ -262,7 +257,7 @@
 }
 
 .cstitle {
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   font-weight: 900;
   font-style: normal;
@@ -320,7 +315,7 @@
 .bottomfootertext {
   opacity: 0.4;
   text-align: center;
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 11px;
   font-weight: 500;
   font-style: normal;
@@ -649,7 +644,7 @@ text-decoration: none;
 
 #intro .intro-info .header-title{
   width: 147%;
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 37px;
   font-weight: bold;
   font-style: normal;
@@ -719,7 +714,7 @@ text-decoration: none;
 }
 
 .clientsheader {
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
@@ -745,7 +740,7 @@ text-decoration: none;
 .nickname {
   width: 63px;
   margin-top: 10px;
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 13px;
   font-weight: bold;
   font-style: normal;
@@ -803,7 +798,7 @@ Consultation
 }
 
 .consultitle {
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
@@ -891,7 +886,7 @@ Consultation
 .scrollto {
     width: 109px;
   height: 31px;
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: 900;
   font-style: normal;
@@ -1208,7 +1203,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 
 .caseStudy1 h4 {
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   line-height: 2.13;
   letter-spacing: 1.2px;
@@ -1485,7 +1480,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #features .feature-block h4 {
   margin-bottom: 20px;
-  font-family: Sofia Pro;
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
