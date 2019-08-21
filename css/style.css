@@ -1,10 +1,9 @@
-   @charset "UTF-8";
+@charset "UTF-8";
 
 @font-face {
   font-family: 'Sofia Pro';
-  src: url('sofia-light.otf');
+  src: local('../sofia-light.otf');
 }
-
 
 /*--------------------------------------------------------------
 # CaseStudy All
